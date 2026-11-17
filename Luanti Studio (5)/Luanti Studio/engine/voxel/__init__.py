@@ -1,0 +1,1 @@
+"""Sous-package du moteur Voxel 3D optimisé par chunks NumPy."""

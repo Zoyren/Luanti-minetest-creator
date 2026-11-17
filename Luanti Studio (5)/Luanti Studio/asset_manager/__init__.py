@@ -1,0 +1,1 @@
+"""Package de la Bibliothèque centrale de ressources réutilisables entre projets."""

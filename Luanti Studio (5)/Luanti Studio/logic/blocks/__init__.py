@@ -1,0 +1,1 @@
+"""Catalogue des définitions de blocs visuels Blockly communs et spécialisés."""

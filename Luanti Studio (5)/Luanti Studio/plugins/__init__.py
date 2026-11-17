@@ -1,0 +1,1 @@
+"""Package d'extensibilité et de gestion des plugins Python de Luanti Creator Studio."""

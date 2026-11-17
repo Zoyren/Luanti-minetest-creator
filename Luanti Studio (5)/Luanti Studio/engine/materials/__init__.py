@@ -1,0 +1,1 @@
+"""Sous-package de gestion des matériaux et textures 3D."""

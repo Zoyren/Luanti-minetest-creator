@@ -1,0 +1,1 @@
+"""Package partagé contenant les utilitaires, journaux et boîtes de dialogue."""

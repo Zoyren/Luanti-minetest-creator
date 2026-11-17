@@ -1,0 +1,4957 @@
+{
+  "version": "2.0",
+  "mod_name": "ffffff",
+  "assets_by_category": {
+    "Mobs": [
+      {
+        "identifier": "ffffff:renard_bleu",
+        "display_name": "Renard Chibi Bleu",
+        "category": "Mobs",
+        "in_creative_inventory": true,
+        "generate_spawn_egg": true,
+        "lua_code": "",
+        "model_data": {
+          "category": "Mobs",
+          "name": "renard_bleu",
+          "atlas_width": 64,
+          "atlas_height": 64,
+          "grid_size": 32,
+          "ai_behavior": "passive",
+          "max_hp": 20,
+          "move_speed": 2.5,
+          "attack_damage": 4,
+          "drop_item": "default:mese_crystal_fragment",
+          "light_source": 0,
+          "animate_in_game": true,
+          "bones": {
+            "root": {
+              "name": "root",
+              "parent_name": null,
+              "pivot": [
+                0.0,
+                6.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "visible": true
+            },
+            "head_bone": {
+              "name": "head_bone",
+              "parent_name": "root",
+              "pivot": [
+                0.0,
+                9.0,
+                4.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "visible": true
+            },
+            "tail_bone": {
+              "name": "tail_bone",
+              "parent_name": "root",
+              "pivot": [
+                0.0,
+                8.0,
+                -5.0
+              ],
+              "rotation": [
+                -18.0,
+                0.0,
+                0.0
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "visible": true
+            },
+            "leg_fl_bone": {
+              "name": "leg_fl_bone",
+              "parent_name": "root",
+              "pivot": [
+                -2.0,
+                4.0,
+                3.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "visible": true
+            },
+            "leg_fr_bone": {
+              "name": "leg_fr_bone",
+              "parent_name": "root",
+              "pivot": [
+                2.0,
+                4.0,
+                3.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "visible": true
+            },
+            "leg_bl_bone": {
+              "name": "leg_bl_bone",
+              "parent_name": "root",
+              "pivot": [
+                -2.0,
+                4.0,
+                -3.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "visible": true
+            },
+            "leg_br_bone": {
+              "name": "leg_br_bone",
+              "parent_name": "root",
+              "pivot": [
+                2.0,
+                4.0,
+                -3.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "visible": true
+            }
+          },
+          "cubes": [
+            {
+              "cube_id": "cube_body",
+              "name": "Torse",
+              "bone_name": "root",
+              "position": [
+                -3.0,
+                4.0,
+                -5.0
+              ],
+              "size": [
+                6.0,
+                5.0,
+                10.0
+              ],
+              "pivot": [
+                0.0,
+                6.5,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                1,
+                1
+              ],
+              "visible": true,
+              "mirror_uv": false
+            },
+            {
+              "cube_id": "cube_head",
+              "name": "Tête",
+              "bone_name": "head_bone",
+              "position": [
+                -4.0,
+                7.0,
+                3.0
+              ],
+              "size": [
+                8.0,
+                6.0,
+                6.0
+              ],
+              "pivot": [
+                0.0,
+                10.0,
+                6.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                35,
+                1
+              ],
+              "visible": true,
+              "mirror_uv": false
+            },
+            {
+              "cube_id": "cube_snout",
+              "name": "Museau",
+              "bone_name": "head_bone",
+              "position": [
+                -2.0,
+                7.0,
+                9.0
+              ],
+              "size": [
+                4.0,
+                3.0,
+                3.0
+              ],
+              "pivot": [
+                0.0,
+                8.5,
+                10.5
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                1,
+                18
+              ],
+              "visible": true,
+              "mirror_uv": false
+            },
+            {
+              "cube_id": "cube_ear_l",
+              "name": "Oreille G",
+              "bone_name": "head_bone",
+              "position": [
+                -4.0,
+                13.0,
+                5.0
+              ],
+              "size": [
+                2.0,
+                3.0,
+                1.0
+              ],
+              "pivot": [
+                -3.0,
+                13.0,
+                5.5
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                17,
+                18
+              ],
+              "visible": true,
+              "mirror_uv": false
+            },
+            {
+              "cube_id": "cube_ear_r",
+              "name": "Oreille D",
+              "bone_name": "head_bone",
+              "position": [
+                2.0,
+                13.0,
+                5.0
+              ],
+              "size": [
+                2.0,
+                3.0,
+                1.0
+              ],
+              "pivot": [
+                3.0,
+                13.0,
+                5.5
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                25,
+                18
+              ],
+              "visible": true,
+              "mirror_uv": false
+            },
+            {
+              "cube_id": "cube_tail",
+              "name": "Queue",
+              "bone_name": "tail_bone",
+              "position": [
+                -2.0,
+                6.0,
+                -11.0
+              ],
+              "size": [
+                4.0,
+                4.0,
+                6.0
+              ],
+              "pivot": [
+                0.0,
+                8.0,
+                -5.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                33,
+                18
+              ],
+              "visible": true,
+              "mirror_uv": false
+            },
+            {
+              "cube_id": "cube_leg_fl",
+              "name": "Patte Av.G",
+              "bone_name": "leg_fl_bone",
+              "position": [
+                -3.0,
+                0.0,
+                2.0
+              ],
+              "size": [
+                2.0,
+                4.0,
+                2.0
+              ],
+              "pivot": [
+                -2.0,
+                4.0,
+                3.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                55,
+                18
+              ],
+              "visible": true,
+              "mirror_uv": false
+            },
+            {
+              "cube_id": "cube_leg_fr",
+              "name": "Patte Av.D",
+              "bone_name": "leg_fr_bone",
+              "position": [
+                1.0,
+                0.0,
+                2.0
+              ],
+              "size": [
+                2.0,
+                4.0,
+                2.0
+              ],
+              "pivot": [
+                2.0,
+                4.0,
+                3.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                1,
+                30
+              ],
+              "visible": true,
+              "mirror_uv": false
+            },
+            {
+              "cube_id": "cube_leg_bl",
+              "name": "Patte Ar.G",
+              "bone_name": "leg_bl_bone",
+              "position": [
+                -3.0,
+                0.0,
+                -4.0
+              ],
+              "size": [
+                2.0,
+                4.0,
+                2.0
+              ],
+              "pivot": [
+                -2.0,
+                4.0,
+                -3.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                11,
+                30
+              ],
+              "visible": true,
+              "mirror_uv": false
+            },
+            {
+              "cube_id": "cube_leg_br",
+              "name": "Patte Ar.D",
+              "bone_name": "leg_br_bone",
+              "position": [
+                1.0,
+                0.0,
+                -4.0
+              ],
+              "size": [
+                2.0,
+                4.0,
+                2.0
+              ],
+              "pivot": [
+                2.0,
+                4.0,
+                -3.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                21,
+                30
+              ],
+              "visible": true,
+              "mirror_uv": false
+            }
+          ],
+          "texture_png_b64": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAABJ0AAASdAHeZh94AAAFBklEQVR4nO2Yu6/cRBTGP7/HXo8TLsqFyyOEBhAtIBANBYgGiQohIVHT0CBoQAiJ0JGKCtGloUHKH0CThgqRKAQkdCEChMTjJoLL3bW9fq7XFPaMH+t9eLObeyXm1+zumTn2nPP5HM8O8D9H6jP5uY9GuUqchm0SuRjd3Iei2w17lvi4/ukzva4/jzc+H+W61bxvErjQLQfUAH747io0QhvjaeRBIxSqYeGLN8/OXYfcZyEs+EnkgpLKxoLPEh+yPgCAmYTcDiz4JHBBjabt8MjlwaeRB9WwAIDbwtGthdfulQCGShx4UZGIOopuY5qMkSX+Opddim458OIiEQBAjSoRQBH0JA6QRl6xTsOaeTLa9E5AW33GttRnzFOfsY76wBoJaKvPktFWnyVjU2xDfaBnArrUPxq6neqn/vLsr8q21AcAtc9C6uqrxAElgAenob6i22ur/8onN3LNbHXz0MM4SpEM06Y9SpFIKUxDg26dgqxq0NVTfFySZSi6Cc2keP3iMK9fTzMpNGLj4muq1OsJ6FIfwMbUZ8GnoQfVsLlNM53S7sI0tNJe2Nzh4QK/yq4Ru3GP4OigWHufBbZrnyWiXfu32wQ1k2IS+0hDr2V3EMYp0rBYg2loPBGL/SjSqLJrxOaJWKsJApX6jE3VflvFyt6t/nK/+eoDZQ948u39XNGbtZclHhSdQtYHmCZjAMB4dAuKwTKuYRKFyGIXkqyA+avkNPd/+t0/8rp/Pk1r/uV9YhffXHiY79TqKmomrQVVqa+ZTpmMbvWZX55nDfVZ7deRAfDFZ4lXq+eyfvybfDJbfBa70AyT29bxV9i8WkK6VAyHB2upX/gtVh9ovQUUnZb1XKnPyBIPqrXDF53Ghfr1AJb5y1qVtCwZz/hfeuuRjfx36APvAcvU0+x7i3kt9dfx71L/uOAJqKsHsG5ePdqsjuvqA6iS0cOfqV/4bXbHKBD0Y6bpjEaj3HGq2rxy9RpsWr06Hn/s0c5G9eDLP+ayRhH/cwWSauHg8otSn/EuPvtqlJt2tZb977+FYVVrOf/qak3z7LMXclkhiNxfISsG/rr2Mfeb2Qix4F23qFEWvO/5sKzuet174XI+nfiYph4kjUJSLTzw0vV81fF5sOBD3wXVwYOPAx86Wb13yAopP42Zsbl/hupPAVAkIgjG3TdQB5BVm3+XyhuuOr4M03bgJdVvw7KRRN1rqXPfE+/lsmJgkgyLJEgyZMXA/U99kMsKwe9fvy+pAPDTjZ9zSouO/ffhUSN4RVbAxtLJBP8OXa7czmln6+/t0Hexu1MlIA580J17VkoAU7z9BMg1AVQAPEDP8/DQuXMAihI4c/ddjbEzu7v8+97eHr/In18uPvxcNr4Ipn7oFyXJ1I+DzRy7NXoACxYoSiBOs84xSil8fzvnfnVY7QNFIuq1X2+Gi5hmcfkZdf6+41vPLj689EtOrOafsSjwMHB2QAZVOR4e/IaueZpBQGrHY+88T1eOa61T4U3DgooCjytLLMqDj8YubEOeP68MPgpckBWfDMaJSACDWBRx4CMKmgcaZODAj6fL51kOop694cQkoK0qt5fqL523hvoCQestsGjPvM15x0mjByzaM29z3nEiAdWeudgrE0ziI8iKgTzPwPbM25h3EpCB1fbM25h3Ejgxr8Hjgidg2Z55W/MEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoHgTvAfk6vnokKF92UAAAAASUVORK5CYII="
+        }
+      },
+      {
+        "identifier": "ffffff:golem_ancien",
+        "display_name": "Golem Ancien",
+        "category": "Mobs",
+        "in_creative_inventory": true,
+        "generate_spawn_egg": true,
+        "lua_code": "",
+        "model_data": {
+          "category": "Mobs",
+          "name": "golem_ancien",
+          "atlas_width": 64,
+          "atlas_height": 64,
+          "grid_size": 16,
+          "ai_behavior": "passive",
+          "max_hp": 20,
+          "move_speed": 2.5,
+          "attack_damage": 4,
+          "drop_item": "default:mese_crystal_fragment",
+          "light_source": 0,
+          "animate_in_game": true,
+          "bones": {
+            "root": {
+              "name": "root",
+              "parent_name": null,
+              "pivot": [
+                0.0,
+                6.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "visible": true
+            },
+            "head_bone": {
+              "name": "head_bone",
+              "parent_name": "root",
+              "pivot": [
+                0.0,
+                9.0,
+                4.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "visible": true
+            },
+            "tail_bone": {
+              "name": "tail_bone",
+              "parent_name": "root",
+              "pivot": [
+                0.0,
+                8.0,
+                -5.0
+              ],
+              "rotation": [
+                -18.0,
+                0.0,
+                0.0
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "visible": true
+            },
+            "leg_fl_bone": {
+              "name": "leg_fl_bone",
+              "parent_name": "root",
+              "pivot": [
+                -2.0,
+                4.0,
+                3.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "visible": true
+            },
+            "leg_fr_bone": {
+              "name": "leg_fr_bone",
+              "parent_name": "root",
+              "pivot": [
+                2.0,
+                4.0,
+                3.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "visible": true
+            },
+            "leg_bl_bone": {
+              "name": "leg_bl_bone",
+              "parent_name": "root",
+              "pivot": [
+                -2.0,
+                4.0,
+                -3.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "visible": true
+            },
+            "leg_br_bone": {
+              "name": "leg_br_bone",
+              "parent_name": "root",
+              "pivot": [
+                2.0,
+                4.0,
+                -3.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "visible": true
+            }
+          },
+          "cubes": [
+            {
+              "cube_id": "cube_body",
+              "name": "Torse",
+              "bone_name": "root",
+              "position": [
+                -3.0,
+                4.0,
+                -5.0
+              ],
+              "size": [
+                6.0,
+                5.0,
+                10.0
+              ],
+              "pivot": [
+                0.0,
+                6.5,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                1,
+                1
+              ],
+              "visible": true,
+              "mirror_uv": false
+            },
+            {
+              "cube_id": "cube_head",
+              "name": "Tête",
+              "bone_name": "head_bone",
+              "position": [
+                -4.0,
+                7.0,
+                3.0
+              ],
+              "size": [
+                8.0,
+                6.0,
+                6.0
+              ],
+              "pivot": [
+                0.0,
+                10.0,
+                6.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                35,
+                1
+              ],
+              "visible": true,
+              "mirror_uv": false
+            },
+            {
+              "cube_id": "cube_snout",
+              "name": "Museau",
+              "bone_name": "head_bone",
+              "position": [
+                -2.0,
+                7.0,
+                9.0
+              ],
+              "size": [
+                4.0,
+                3.0,
+                3.0
+              ],
+              "pivot": [
+                0.0,
+                8.5,
+                10.5
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                1,
+                18
+              ],
+              "visible": true,
+              "mirror_uv": false
+            },
+            {
+              "cube_id": "cube_ear_l",
+              "name": "Oreille G",
+              "bone_name": "head_bone",
+              "position": [
+                -4.0,
+                13.0,
+                5.0
+              ],
+              "size": [
+                2.0,
+                3.0,
+                1.0
+              ],
+              "pivot": [
+                -3.0,
+                13.0,
+                5.5
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                17,
+                18
+              ],
+              "visible": true,
+              "mirror_uv": false
+            },
+            {
+              "cube_id": "cube_ear_r",
+              "name": "Oreille D",
+              "bone_name": "head_bone",
+              "position": [
+                2.0,
+                13.0,
+                5.0
+              ],
+              "size": [
+                2.0,
+                3.0,
+                1.0
+              ],
+              "pivot": [
+                3.0,
+                13.0,
+                5.5
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                25,
+                18
+              ],
+              "visible": true,
+              "mirror_uv": false
+            },
+            {
+              "cube_id": "cube_tail",
+              "name": "Queue",
+              "bone_name": "tail_bone",
+              "position": [
+                -2.0,
+                6.0,
+                -11.0
+              ],
+              "size": [
+                4.0,
+                4.0,
+                6.0
+              ],
+              "pivot": [
+                0.0,
+                8.0,
+                -5.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                33,
+                18
+              ],
+              "visible": true,
+              "mirror_uv": false
+            },
+            {
+              "cube_id": "cube_leg_fl",
+              "name": "Patte Av.G",
+              "bone_name": "leg_fl_bone",
+              "position": [
+                -3.0,
+                0.0,
+                2.0
+              ],
+              "size": [
+                2.0,
+                4.0,
+                2.0
+              ],
+              "pivot": [
+                -2.0,
+                4.0,
+                3.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                55,
+                18
+              ],
+              "visible": true,
+              "mirror_uv": false
+            },
+            {
+              "cube_id": "cube_leg_fr",
+              "name": "Patte Av.D",
+              "bone_name": "leg_fr_bone",
+              "position": [
+                1.0,
+                0.0,
+                2.0
+              ],
+              "size": [
+                2.0,
+                4.0,
+                2.0
+              ],
+              "pivot": [
+                2.0,
+                4.0,
+                3.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                1,
+                30
+              ],
+              "visible": true,
+              "mirror_uv": false
+            },
+            {
+              "cube_id": "cube_leg_bl",
+              "name": "Patte Ar.G",
+              "bone_name": "leg_bl_bone",
+              "position": [
+                -3.0,
+                0.0,
+                -4.0
+              ],
+              "size": [
+                2.0,
+                4.0,
+                2.0
+              ],
+              "pivot": [
+                -2.0,
+                4.0,
+                -3.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                11,
+                30
+              ],
+              "visible": true,
+              "mirror_uv": false
+            },
+            {
+              "cube_id": "cube_leg_br",
+              "name": "Patte Ar.D",
+              "bone_name": "leg_br_bone",
+              "position": [
+                1.0,
+                0.0,
+                -4.0
+              ],
+              "size": [
+                2.0,
+                4.0,
+                2.0
+              ],
+              "pivot": [
+                2.0,
+                4.0,
+                -3.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                21,
+                30
+              ],
+              "visible": true,
+              "mirror_uv": false
+            }
+          ],
+          "texture_png_b64": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAABJ0AAASdAHeZh94AAAFBklEQVR4nO2Yu6/cRBTGP7/HXo8TLsqFyyOEBhAtIBANBYgGiQohIVHT0CBoQAiJ0JGKCtGloUHKH0CThgqRKAQkdCEChMTjJoLL3bW9fq7XFPaMH+t9eLObeyXm1+zumTn2nPP5HM8O8D9H6jP5uY9GuUqchm0SuRjd3Iei2w17lvi4/ukzva4/jzc+H+W61bxvErjQLQfUAH747io0QhvjaeRBIxSqYeGLN8/OXYfcZyEs+EnkgpLKxoLPEh+yPgCAmYTcDiz4JHBBjabt8MjlwaeRB9WwAIDbwtGthdfulQCGShx4UZGIOopuY5qMkSX+Opddim458OIiEQBAjSoRQBH0JA6QRl6xTsOaeTLa9E5AW33GttRnzFOfsY76wBoJaKvPktFWnyVjU2xDfaBnArrUPxq6neqn/vLsr8q21AcAtc9C6uqrxAElgAenob6i22ur/8onN3LNbHXz0MM4SpEM06Y9SpFIKUxDg26dgqxq0NVTfFySZSi6Cc2keP3iMK9fTzMpNGLj4muq1OsJ6FIfwMbUZ8GnoQfVsLlNM53S7sI0tNJe2Nzh4QK/yq4Ru3GP4OigWHufBbZrnyWiXfu32wQ1k2IS+0hDr2V3EMYp0rBYg2loPBGL/SjSqLJrxOaJWKsJApX6jE3VflvFyt6t/nK/+eoDZQ948u39XNGbtZclHhSdQtYHmCZjAMB4dAuKwTKuYRKFyGIXkqyA+avkNPd/+t0/8rp/Pk1r/uV9YhffXHiY79TqKmomrQVVqa+ZTpmMbvWZX55nDfVZ7deRAfDFZ4lXq+eyfvybfDJbfBa70AyT29bxV9i8WkK6VAyHB2upX/gtVh9ovQUUnZb1XKnPyBIPqrXDF53Ghfr1AJb5y1qVtCwZz/hfeuuRjfx36APvAcvU0+x7i3kt9dfx71L/uOAJqKsHsG5ePdqsjuvqA6iS0cOfqV/4bXbHKBD0Y6bpjEaj3HGq2rxy9RpsWr06Hn/s0c5G9eDLP+ayRhH/cwWSauHg8otSn/EuPvtqlJt2tZb977+FYVVrOf/qak3z7LMXclkhiNxfISsG/rr2Mfeb2Qix4F23qFEWvO/5sKzuet174XI+nfiYph4kjUJSLTzw0vV81fF5sOBD3wXVwYOPAx86Wb13yAopP42Zsbl/hupPAVAkIgjG3TdQB5BVm3+XyhuuOr4M03bgJdVvw7KRRN1rqXPfE+/lsmJgkgyLJEgyZMXA/U99kMsKwe9fvy+pAPDTjZ9zSouO/ffhUSN4RVbAxtLJBP8OXa7czmln6+/t0Hexu1MlIA580J17VkoAU7z9BMg1AVQAPEDP8/DQuXMAihI4c/ddjbEzu7v8+97eHr/In18uPvxcNr4Ipn7oFyXJ1I+DzRy7NXoACxYoSiBOs84xSil8fzvnfnVY7QNFIuq1X2+Gi5hmcfkZdf6+41vPLj689EtOrOafsSjwMHB2QAZVOR4e/IaueZpBQGrHY+88T1eOa61T4U3DgooCjytLLMqDj8YubEOeP68MPgpckBWfDMaJSACDWBRx4CMKmgcaZODAj6fL51kOop694cQkoK0qt5fqL523hvoCQestsGjPvM15x0mjByzaM29z3nEiAdWeudgrE0ziI8iKgTzPwPbM25h3EpCB1fbM25h3Ejgxr8Hjgidg2Z55W/MEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoHgTvAfk6vnokKF92UAAAAASUVORK5CYII="
+        }
+      }
+    ],
+    "Blocks": [
+      {
+        "identifier": "ffffff:cristal_azur",
+        "display_name": "Cristal d'Azur 3D",
+        "category": "Blocks",
+        "in_creative_inventory": true,
+        "generate_spawn_egg": true,
+        "lua_code": "",
+        "model_data": {
+          "category": "Blocks",
+          "name": "cristal_azur",
+          "atlas_width": 128,
+          "atlas_height": 128,
+          "grid_size": 16,
+          "ai_behavior": "passive",
+          "max_hp": 20,
+          "move_speed": 2.5,
+          "attack_damage": 4,
+          "drop_item": "default:mese_crystal_fragment",
+          "light_source": 10,
+          "animate_in_game": true,
+          "bones": {
+            "root": {
+              "name": "root",
+              "parent_name": null,
+              "pivot": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "visible": true
+            },
+            "crystal_bone": {
+              "name": "crystal_bone",
+              "parent_name": "root",
+              "pivot": [
+                0.0,
+                11.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                25.0,
+                0.0
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "visible": true
+            }
+          },
+          "cubes": [
+            {
+              "cube_id": "cube_base",
+              "name": "Socle Bas",
+              "bone_name": "root",
+              "position": [
+                -8.0,
+                0.0,
+                -8.0
+              ],
+              "size": [
+                16.0,
+                4.0,
+                16.0
+              ],
+              "pivot": [
+                0.0,
+                2.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                1,
+                3
+              ],
+              "visible": true,
+              "mirror_uv": false
+            },
+            {
+              "cube_id": "cube_pillar",
+              "name": "Pilier Central",
+              "bone_name": "root",
+              "position": [
+                -5.0,
+                4.0,
+                -5.0
+              ],
+              "size": [
+                10.0,
+                6.0,
+                10.0
+              ],
+              "pivot": [
+                0.0,
+                7.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                67,
+                3
+              ],
+              "visible": true,
+              "mirror_uv": false
+            },
+            {
+              "cube_id": "cube_crystal",
+              "name": "Cristal Flottant",
+              "bone_name": "crystal_bone",
+              "position": [
+                -3.0,
+                10.0,
+                -3.0
+              ],
+              "size": [
+                6.0,
+                6.0,
+                6.0
+              ],
+              "pivot": [
+                0.0,
+                13.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                1,
+                25
+              ],
+              "visible": true,
+              "mirror_uv": false
+            }
+          ],
+          "texture_png_b64": "iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAACXBIWXMAABJ0AAASdAHeZh94AAAFOUlEQVR4nO3bMXPjRBgG4DfW7kqx4xz8An4DDeW1zNDfUEAJzFxPAwU1MzT8AAooaKCkg4aKjobuGoYZimPg4JLYlqVdKaaQv7VWcWxHVuz4/D5N4s1Kdrzfq11tHICIiI7USRcnefvJ05nSJmgrnIXSBkobFM4GbUJpgywdY3TxApEKjy8Li0gZREqhLIqgTURKwWYpfvnp+05+j0198PEXMxMnQZvNM5g4gTYJnM0AAM///B3axEE/Z3NoE0NrAzd/X7776vOdvv66XhcnkUGtD7B8zdKx75f0z3y/en8Z1GqAFQD4Npul/niT9H2/6mtxo3B2QQbf5hm0SYK2yejC95PBdzaHnr8f0pZORjt7vat0UgBC0i4DLFcAAEvb5bGIlEFZFH6AI6WC4pArweLKEB6/ayau0m7zKvHaJEFxCG1iOGfhbF491iYojn3qrADapl8cSvrFuvQPhq8BWJ/+/mC4k9d7G9XZiWrprycfQJB0+VmWjoM+9fRLwkU96fIzm6V7LYB6+mXuF7elX+Z+se/0Ax1dAbZJf+HsVunfxzTwqqQf6OgKsE36ZRHYNv37WgS+CukHOr4LaJN+AAeVfgAbpd/m2Ubp33chdDYFtFn5S7+2K/99rQFWrfxlD8DEycqVv+wBNPcJdq2zu4C26ReHkn6xLv3iIacf6GgN0Hbul37bzP1dFsK7H34yM6axw2czGJNAGYPCVs81vrpAfSfQ5vX1QOzbTk5OIOeL41N/vl4vwmD4yJ/vvaefzXRjZ9HlGXScBDuGX3/5aec7hp2uAdqkv74T2Cb9XU4DMljWZlDGBG3p+GrRL9gJjIO2yejyzueTwXf1dUN8s9996HQKuOvcXy+KNnN//faxS8YkKKyFnc/nyphgMH2/OIGzeW09EC/dCdz0fFrWDXI+bYLiuA+dFUDb9MvjtumXQunKurT2z86rfmvSPxg+utP51qVf+nWtsyngWNIv8/a69MsCb9PzrUu/c/ez6O2kALZJf+HsVunvchF4bOkH5p8HePzO+zOldfCDwjkorREpjbJwQZuIlEY+TaFNHNwBVH3ndwZKo/DHNz4PoDSy6QTO5tjm+XtRtNXz//zDN3v7e/y+9QD4N7VwDpGqvpe2fLpIZ3za9/0AoCyqAQku6/74+Z3BdOKPT04Hvh8AFIWbTxP7ff5jFkwBSldpkzc4UjoYHEmiJFP6LY43KAq3WAOocHAKf/w8mY15bd/Pf4x8AbRN3+L47dK37+cnIjo+K1e/j3+8nEWD8BaknFzh4o9n6J2eBe3X0zF+++ito11NH6qV+wAy+OXkCkO1aJPBv56OEc3v25sFQYdho42gaHCOUVEVQnDw6RnKLMX1dHzLkfTQrS2AZvoF0/9qWFsAzfRLMTTTL8VAh2VlASxL/8Xl1dL0u5d/3+PLpPtyAgBvfvtsFvXDjyiX6Qhq+DqW3QUUo5dY1r9nEkSNjzqXkxF+ffIG7w4eqB4AP5hlOkJvvmMW9YfBXUAcV3/9igbnK/rP2ycjRPMrQ7Mg6GEJpoCoP8T1dIIyDf9xMRqcI8/zG3cBt/cfopyOUT6Qf4Ck2/kCaKbZtzfSv74/039IfAE00+wHt5F+Xwy39g/TH/EW8UHrAcvT7P79a2n60//+WdH/Zvrti+e7+l2IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiINvE/WeKLTUxAJe0AAAAASUVORK5CYII="
+        }
+      },
+      {
+        "identifier": "ffffff:pilier_sculpte",
+        "display_name": "Pilier Sculpté 3D",
+        "category": "Blocks",
+        "in_creative_inventory": true,
+        "generate_spawn_egg": true,
+        "lua_code": "",
+        "model_data": {
+          "category": "Blocks",
+          "name": "pilier_sculpte",
+          "atlas_width": 128,
+          "atlas_height": 128,
+          "grid_size": 16,
+          "ai_behavior": "passive",
+          "max_hp": 20,
+          "move_speed": 2.5,
+          "attack_damage": 4,
+          "drop_item": "default:mese_crystal_fragment",
+          "light_source": 10,
+          "animate_in_game": true,
+          "bones": {
+            "root": {
+              "name": "root",
+              "parent_name": null,
+              "pivot": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "visible": true
+            },
+            "crystal_bone": {
+              "name": "crystal_bone",
+              "parent_name": "root",
+              "pivot": [
+                0.0,
+                11.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                25.0,
+                0.0
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "visible": true
+            }
+          },
+          "cubes": [
+            {
+              "cube_id": "cube_base",
+              "name": "Socle Bas",
+              "bone_name": "root",
+              "position": [
+                -8.0,
+                0.0,
+                -8.0
+              ],
+              "size": [
+                16.0,
+                4.0,
+                16.0
+              ],
+              "pivot": [
+                0.0,
+                2.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                1,
+                3
+              ],
+              "visible": true,
+              "mirror_uv": false
+            },
+            {
+              "cube_id": "cube_pillar",
+              "name": "Pilier Central",
+              "bone_name": "root",
+              "position": [
+                -5.0,
+                4.0,
+                -5.0
+              ],
+              "size": [
+                10.0,
+                6.0,
+                10.0
+              ],
+              "pivot": [
+                0.0,
+                7.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                67,
+                3
+              ],
+              "visible": true,
+              "mirror_uv": false
+            },
+            {
+              "cube_id": "cube_crystal",
+              "name": "Cristal Flottant",
+              "bone_name": "crystal_bone",
+              "position": [
+                -3.0,
+                10.0,
+                -3.0
+              ],
+              "size": [
+                6.0,
+                6.0,
+                6.0
+              ],
+              "pivot": [
+                0.0,
+                13.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                1,
+                25
+              ],
+              "visible": true,
+              "mirror_uv": false
+            }
+          ],
+          "texture_png_b64": "iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAACXBIWXMAABJ0AAASdAHeZh94AAAFOUlEQVR4nO3bMXPjRBgG4DfW7kqx4xz8An4DDeW1zNDfUEAJzFxPAwU1MzT8AAooaKCkg4aKjobuGoYZimPg4JLYlqVdKaaQv7VWcWxHVuz4/D5N4s1Kdrzfq11tHICIiI7USRcnefvJ05nSJmgrnIXSBkobFM4GbUJpgywdY3TxApEKjy8Li0gZREqhLIqgTURKwWYpfvnp+05+j0198PEXMxMnQZvNM5g4gTYJnM0AAM///B3axEE/Z3NoE0NrAzd/X7776vOdvv66XhcnkUGtD7B8zdKx75f0z3y/en8Z1GqAFQD4Npul/niT9H2/6mtxo3B2QQbf5hm0SYK2yejC95PBdzaHnr8f0pZORjt7vat0UgBC0i4DLFcAAEvb5bGIlEFZFH6AI6WC4pArweLKEB6/ayau0m7zKvHaJEFxCG1iOGfhbF491iYojn3qrADapl8cSvrFuvQPhq8BWJ/+/mC4k9d7G9XZiWrprycfQJB0+VmWjoM+9fRLwkU96fIzm6V7LYB6+mXuF7elX+Z+se/0Ax1dAbZJf+HsVunfxzTwqqQf6OgKsE36ZRHYNv37WgS+CukHOr4LaJN+AAeVfgAbpd/m2Ubp33chdDYFtFn5S7+2K/99rQFWrfxlD8DEycqVv+wBNPcJdq2zu4C26ReHkn6xLv3iIacf6GgN0Hbul37bzP1dFsK7H34yM6axw2czGJNAGYPCVs81vrpAfSfQ5vX1QOzbTk5OIOeL41N/vl4vwmD4yJ/vvaefzXRjZ9HlGXScBDuGX3/5aec7hp2uAdqkv74T2Cb9XU4DMljWZlDGBG3p+GrRL9gJjIO2yejyzueTwXf1dUN8s9996HQKuOvcXy+KNnN//faxS8YkKKyFnc/nyphgMH2/OIGzeW09EC/dCdz0fFrWDXI+bYLiuA+dFUDb9MvjtumXQunKurT2z86rfmvSPxg+utP51qVf+nWtsyngWNIv8/a69MsCb9PzrUu/c/ez6O2kALZJf+HsVunvchF4bOkH5p8HePzO+zOldfCDwjkorREpjbJwQZuIlEY+TaFNHNwBVH3ndwZKo/DHNz4PoDSy6QTO5tjm+XtRtNXz//zDN3v7e/y+9QD4N7VwDpGqvpe2fLpIZ3za9/0AoCyqAQku6/74+Z3BdOKPT04Hvh8AFIWbTxP7ff5jFkwBSldpkzc4UjoYHEmiJFP6LY43KAq3WAOocHAKf/w8mY15bd/Pf4x8AbRN3+L47dK37+cnIjo+K1e/j3+8nEWD8BaknFzh4o9n6J2eBe3X0zF+++ito11NH6qV+wAy+OXkCkO1aJPBv56OEc3v25sFQYdho42gaHCOUVEVQnDw6RnKLMX1dHzLkfTQrS2AZvoF0/9qWFsAzfRLMTTTL8VAh2VlASxL/8Xl1dL0u5d/3+PLpPtyAgBvfvtsFvXDjyiX6Qhq+DqW3QUUo5dY1r9nEkSNjzqXkxF+ffIG7w4eqB4AP5hlOkJvvmMW9YfBXUAcV3/9igbnK/rP2ycjRPMrQ7Mg6GEJpoCoP8T1dIIyDf9xMRqcI8/zG3cBt/cfopyOUT6Qf4Ck2/kCaKbZtzfSv74/039IfAE00+wHt5F+Xwy39g/TH/EW8UHrAcvT7P79a2n60//+WdH/Zvrti+e7+l2IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiINvE/WeKLTUxAJe0AAAAASUVORK5CYII="
+        }
+      }
+    ],
+    "Items": [
+      {
+        "identifier": "ffffff:lame_astrale",
+        "display_name": "Lame Astrale 3D",
+        "category": "Items",
+        "in_creative_inventory": true,
+        "generate_spawn_egg": true,
+        "lua_code": "",
+        "model_data": {
+          "category": "Items",
+          "name": "lame_astrale",
+          "atlas_width": 64,
+          "atlas_height": 64,
+          "grid_size": 16,
+          "ai_behavior": "passive",
+          "max_hp": 20,
+          "move_speed": 2.5,
+          "attack_damage": 6,
+          "drop_item": "default:mese_crystal_fragment",
+          "light_source": 0,
+          "animate_in_game": true,
+          "bones": {
+            "root": {
+              "name": "root",
+              "parent_name": null,
+              "pivot": [
+                0.0,
+                4.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "visible": true
+            },
+            "blade_bone": {
+              "name": "blade_bone",
+              "parent_name": "root",
+              "pivot": [
+                0.0,
+                7.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "visible": true
+            }
+          },
+          "cubes": [
+            {
+              "cube_id": "cube_pommel",
+              "name": "Pommeau",
+              "bone_name": "root",
+              "position": [
+                -1.5,
+                0.0,
+                -1.5
+              ],
+              "size": [
+                3.0,
+                2.0,
+                3.0
+              ],
+              "pivot": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                1,
+                1
+              ],
+              "visible": true,
+              "mirror_uv": false
+            },
+            {
+              "cube_id": "cube_grip",
+              "name": "Poignée",
+              "bone_name": "root",
+              "position": [
+                -1.0,
+                2.0,
+                -1.0
+              ],
+              "size": [
+                2.0,
+                4.0,
+                2.0
+              ],
+              "pivot": [
+                0.0,
+                4.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                15,
+                1
+              ],
+              "visible": true,
+              "mirror_uv": false
+            },
+            {
+              "cube_id": "cube_guard",
+              "name": "Garde",
+              "bone_name": "root",
+              "position": [
+                -4.0,
+                6.0,
+                -1.5
+              ],
+              "size": [
+                8.0,
+                2.0,
+                3.0
+              ],
+              "pivot": [
+                0.0,
+                7.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                25,
+                1
+              ],
+              "visible": true,
+              "mirror_uv": false
+            },
+            {
+              "cube_id": "cube_blade",
+              "name": "Lame",
+              "bone_name": "blade_bone",
+              "position": [
+                -1.5,
+                8.0,
+                -0.5
+              ],
+              "size": [
+                3.0,
+                10.0,
+                1.0
+              ],
+              "pivot": [
+                0.0,
+                13.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "uv_offset": [
+                49,
+                1
+              ],
+              "visible": true,
+              "mirror_uv": false
+            }
+          ],
+          "texture_png_b64": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAABJ0AAASdAHeZh94AAACcklEQVR4nO3WTWvUQBgH8P9ktskms0mhVtSDZ0FU9KBHv4DfQNCzHvTczyCIeBT0IvgJBA9evAq+IirowYuIpaWtTfZt0k3HQzLJZrfZVlCx9f+DZWeenczMM7Mzu8B/TkwGNh/Mm8jPw88/a3Taefz00mCqrbV0ft54UuBrMsKcFLj3Lmlsu/K4bSJVj8U9IFKA57p49roa0+oOgU4bCNrAqat6x74vPt00UkUAgLUPL+D4HQDA2ysnG+cCAM5kwCYfD0w5ke5wVheAJ/Nn5uTMsfL+i+TjXp7weGx1I62NGRRlG1v5sXOf5x59MoOhhn1JNQ/ZVnAPHcWFJ+tm1nxajRP1q2Qmd8S6fiY0rhSI0214UsAB4EqBG2cj40rg9qu4cUUiBeg0re1+hLQ2Zn9Y3/0mMghhdz/rxZBBCMdrF/Wk+UEUC/DxVmDCYoDljbRMXjoCNv7lTlAejcVrPYEiWaD6Brjle32Ql/c9EwZ5+dsqYMtWHkvR8QHHqT7fGgFHFqo1DAPg/UPPhIGA8oHFS8OpBZYqwiheH6uHMxfAAVAmmQzrR6Ap/qtsQkm/Xu749c+/r022FUXZQJVt89jy2vQ8sl4Mz/PG6glkcRc0aQHA8Zv93Q9vgzQz8FsCOjNlveUIpFnV5sTlnS+u302qCFrrsXqIbNCd+UzjHbAXd980n/G/KesnELKFYOEwtNbI+gnMaAvu4rE/uwD/CnsJaq1rl2A26O56CU79DO5Hjq/Ksy9VBMdX5dnf0yW4320PeuXu2/pedh84IAtg2f8CVX327hMRERERERERERERERERERERERERERERERHRwfMTVJPR9Lj/OyUAAAAASUVORK5CYII="
+        }
+      }
+    ],
+    "Commands": [
+      {
+        "identifier": "boutique",
+        "display_name": "Commande /boutique (avec GUI)",
+        "category": "Commands",
+        "in_creative_inventory": true,
+        "generate_spawn_egg": true,
+        "lua_code": "",
+        "model_data": null
+      }
+    ],
+    "World": [
+      {
+        "identifier": "monde_principal",
+        "display_name": "Monde Voxel Minetest",
+        "category": "World",
+        "in_creative_inventory": true,
+        "generate_spawn_egg": true,
+        "lua_code": "",
+        "model_data": null
+      }
+    ]
+  },
+  "voxel_world": [
+    {
+      "x": -6,
+      "y": -2,
+      "z": -6,
+      "node": "default:stone"
+    },
+    {
+      "x": -6,
+      "y": -1,
+      "z": -6,
+      "node": "default:dirt"
+    },
+    {
+      "x": -6,
+      "y": 0,
+      "z": -6,
+      "node": "default:dirt"
+    },
+    {
+      "x": -6,
+      "y": 1,
+      "z": -6,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -6,
+      "y": -2,
+      "z": -5,
+      "node": "default:stone"
+    },
+    {
+      "x": -6,
+      "y": -1,
+      "z": -5,
+      "node": "default:dirt"
+    },
+    {
+      "x": -6,
+      "y": 0,
+      "z": -5,
+      "node": "default:dirt"
+    },
+    {
+      "x": -6,
+      "y": 1,
+      "z": -5,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -6,
+      "y": -2,
+      "z": -4,
+      "node": "default:stone"
+    },
+    {
+      "x": -6,
+      "y": -1,
+      "z": -4,
+      "node": "default:dirt"
+    },
+    {
+      "x": -6,
+      "y": 0,
+      "z": -4,
+      "node": "default:dirt"
+    },
+    {
+      "x": -6,
+      "y": 1,
+      "z": -4,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -6,
+      "y": -2,
+      "z": -3,
+      "node": "default:stone"
+    },
+    {
+      "x": -6,
+      "y": -1,
+      "z": -3,
+      "node": "default:dirt"
+    },
+    {
+      "x": -6,
+      "y": 0,
+      "z": -3,
+      "node": "default:dirt"
+    },
+    {
+      "x": -6,
+      "y": 1,
+      "z": -3,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -6,
+      "y": -2,
+      "z": -2,
+      "node": "default:stone"
+    },
+    {
+      "x": -6,
+      "y": -1,
+      "z": -2,
+      "node": "default:dirt"
+    },
+    {
+      "x": -6,
+      "y": 0,
+      "z": -2,
+      "node": "default:dirt"
+    },
+    {
+      "x": -6,
+      "y": 1,
+      "z": -2,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -6,
+      "y": -2,
+      "z": -1,
+      "node": "default:stone"
+    },
+    {
+      "x": -6,
+      "y": -1,
+      "z": -1,
+      "node": "default:dirt"
+    },
+    {
+      "x": -6,
+      "y": 0,
+      "z": -1,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -6,
+      "y": -2,
+      "z": 0,
+      "node": "default:stone"
+    },
+    {
+      "x": -6,
+      "y": -1,
+      "z": 0,
+      "node": "default:dirt"
+    },
+    {
+      "x": -6,
+      "y": 0,
+      "z": 0,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -6,
+      "y": -2,
+      "z": 1,
+      "node": "default:stone"
+    },
+    {
+      "x": -6,
+      "y": -1,
+      "z": 1,
+      "node": "default:dirt"
+    },
+    {
+      "x": -6,
+      "y": 0,
+      "z": 1,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -6,
+      "y": -2,
+      "z": 2,
+      "node": "default:stone"
+    },
+    {
+      "x": -6,
+      "y": -1,
+      "z": 2,
+      "node": "default:dirt"
+    },
+    {
+      "x": -6,
+      "y": 0,
+      "z": 2,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -6,
+      "y": -2,
+      "z": 3,
+      "node": "default:stone"
+    },
+    {
+      "x": -6,
+      "y": -1,
+      "z": 3,
+      "node": "default:dirt"
+    },
+    {
+      "x": -6,
+      "y": 0,
+      "z": 3,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -6,
+      "y": -2,
+      "z": 4,
+      "node": "default:stone"
+    },
+    {
+      "x": -6,
+      "y": -1,
+      "z": 4,
+      "node": "default:dirt"
+    },
+    {
+      "x": -6,
+      "y": 0,
+      "z": 4,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -6,
+      "y": -2,
+      "z": 5,
+      "node": "default:stone"
+    },
+    {
+      "x": -6,
+      "y": -1,
+      "z": 5,
+      "node": "default:dirt"
+    },
+    {
+      "x": -6,
+      "y": 0,
+      "z": 5,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -6,
+      "y": -2,
+      "z": 6,
+      "node": "default:stone"
+    },
+    {
+      "x": -6,
+      "y": -1,
+      "z": 6,
+      "node": "default:dirt"
+    },
+    {
+      "x": -6,
+      "y": 0,
+      "z": 6,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -5,
+      "y": -2,
+      "z": -6,
+      "node": "default:stone"
+    },
+    {
+      "x": -5,
+      "y": -1,
+      "z": -6,
+      "node": "default:dirt"
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": -6,
+      "node": "default:dirt"
+    },
+    {
+      "x": -5,
+      "y": 1,
+      "z": -6,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -5,
+      "y": -2,
+      "z": -5,
+      "node": "default:stone"
+    },
+    {
+      "x": -5,
+      "y": -1,
+      "z": -5,
+      "node": "default:dirt"
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": -5,
+      "node": "default:dirt"
+    },
+    {
+      "x": -5,
+      "y": 1,
+      "z": -5,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -5,
+      "y": -2,
+      "z": -4,
+      "node": "default:stone"
+    },
+    {
+      "x": -5,
+      "y": -1,
+      "z": -4,
+      "node": "default:dirt"
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": -4,
+      "node": "default:dirt"
+    },
+    {
+      "x": -5,
+      "y": 1,
+      "z": -4,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -5,
+      "y": -2,
+      "z": -3,
+      "node": "default:stone"
+    },
+    {
+      "x": -5,
+      "y": -1,
+      "z": -3,
+      "node": "default:dirt"
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": -3,
+      "node": "default:dirt"
+    },
+    {
+      "x": -5,
+      "y": 1,
+      "z": -3,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -5,
+      "y": -2,
+      "z": -2,
+      "node": "default:stone"
+    },
+    {
+      "x": -5,
+      "y": -1,
+      "z": -2,
+      "node": "default:dirt"
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": -2,
+      "node": "default:dirt"
+    },
+    {
+      "x": -5,
+      "y": 1,
+      "z": -2,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -5,
+      "y": -2,
+      "z": -1,
+      "node": "default:stone"
+    },
+    {
+      "x": -5,
+      "y": -1,
+      "z": -1,
+      "node": "default:dirt"
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": -1,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -5,
+      "y": -2,
+      "z": 0,
+      "node": "default:stone"
+    },
+    {
+      "x": -5,
+      "y": -1,
+      "z": 0,
+      "node": "default:dirt"
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": 0,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -5,
+      "y": -2,
+      "z": 1,
+      "node": "default:stone"
+    },
+    {
+      "x": -5,
+      "y": -1,
+      "z": 1,
+      "node": "default:dirt"
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": 1,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -5,
+      "y": -2,
+      "z": 2,
+      "node": "default:stone"
+    },
+    {
+      "x": -5,
+      "y": -1,
+      "z": 2,
+      "node": "default:dirt"
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": 2,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -5,
+      "y": -2,
+      "z": 3,
+      "node": "default:stone"
+    },
+    {
+      "x": -5,
+      "y": -1,
+      "z": 3,
+      "node": "default:dirt"
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": 3,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -5,
+      "y": -2,
+      "z": 4,
+      "node": "default:stone"
+    },
+    {
+      "x": -5,
+      "y": -1,
+      "z": 4,
+      "node": "default:dirt"
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": 4,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -5,
+      "y": -2,
+      "z": 5,
+      "node": "default:stone"
+    },
+    {
+      "x": -5,
+      "y": -1,
+      "z": 5,
+      "node": "default:dirt"
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": 5,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -5,
+      "y": -2,
+      "z": 6,
+      "node": "default:stone"
+    },
+    {
+      "x": -5,
+      "y": -1,
+      "z": 6,
+      "node": "default:dirt"
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": 6,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -4,
+      "y": -2,
+      "z": -6,
+      "node": "default:stone"
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "z": -6,
+      "node": "default:dirt"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": -6,
+      "node": "default:dirt"
+    },
+    {
+      "x": -4,
+      "y": 1,
+      "z": -6,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -4,
+      "y": -2,
+      "z": -5,
+      "node": "default:stone"
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "z": -5,
+      "node": "default:dirt"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": -5,
+      "node": "default:dirt"
+    },
+    {
+      "x": -4,
+      "y": 1,
+      "z": -5,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -4,
+      "y": -2,
+      "z": -4,
+      "node": "default:stone"
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "z": -4,
+      "node": "default:dirt"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": -4,
+      "node": "default:dirt"
+    },
+    {
+      "x": -4,
+      "y": 1,
+      "z": -4,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -4,
+      "y": -2,
+      "z": -3,
+      "node": "default:stone"
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "z": -3,
+      "node": "default:dirt"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": -3,
+      "node": "default:dirt"
+    },
+    {
+      "x": -4,
+      "y": 1,
+      "z": -3,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -4,
+      "y": -2,
+      "z": -2,
+      "node": "default:stone"
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "z": -2,
+      "node": "default:dirt"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": -2,
+      "node": "default:dirt"
+    },
+    {
+      "x": -4,
+      "y": 1,
+      "z": -2,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -4,
+      "y": -2,
+      "z": -1,
+      "node": "default:stone"
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "z": -1,
+      "node": "default:dirt"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": -1,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -4,
+      "y": -2,
+      "z": 0,
+      "node": "default:stone"
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "z": 0,
+      "node": "default:dirt"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": 0,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -4,
+      "y": -2,
+      "z": 1,
+      "node": "default:stone"
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "z": 1,
+      "node": "default:dirt"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": 1,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -4,
+      "y": -2,
+      "z": 2,
+      "node": "default:stone"
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "z": 2,
+      "node": "default:dirt"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": 2,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -4,
+      "y": -2,
+      "z": 3,
+      "node": "default:stone"
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "z": 3,
+      "node": "default:dirt"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": 3,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -4,
+      "y": -2,
+      "z": 4,
+      "node": "default:stone"
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "z": 4,
+      "node": "default:dirt"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": 4,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -4,
+      "y": -2,
+      "z": 5,
+      "node": "default:stone"
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "z": 5,
+      "node": "default:dirt"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": 5,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -4,
+      "y": -2,
+      "z": 6,
+      "node": "default:stone"
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "z": 6,
+      "node": "default:dirt"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": 6,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -3,
+      "y": -2,
+      "z": -6,
+      "node": "default:stone"
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": -6,
+      "node": "default:dirt"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -6,
+      "node": "default:dirt"
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "z": -6,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -3,
+      "y": -2,
+      "z": -5,
+      "node": "default:stone"
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": -5,
+      "node": "default:dirt"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -5,
+      "node": "default:dirt"
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "z": -5,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -3,
+      "y": -2,
+      "z": -4,
+      "node": "default:stone"
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": -4,
+      "node": "default:dirt"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -4,
+      "node": "default:dirt"
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "z": -4,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -3,
+      "y": -2,
+      "z": -3,
+      "node": "default:stone"
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": -3,
+      "node": "default:dirt"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -3,
+      "node": "default:dirt"
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "z": -3,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -3,
+      "y": -2,
+      "z": -2,
+      "node": "default:stone"
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": -2,
+      "node": "default:dirt"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -2,
+      "node": "default:dirt"
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "z": -2,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -3,
+      "y": -2,
+      "z": -1,
+      "node": "default:stone"
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": -1,
+      "node": "default:dirt"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -1,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -3,
+      "y": -2,
+      "z": 0,
+      "node": "default:stone"
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": 0,
+      "node": "default:dirt"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": 0,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -3,
+      "y": -2,
+      "z": 1,
+      "node": "default:stone"
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": 1,
+      "node": "default:dirt"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": 1,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -3,
+      "y": -2,
+      "z": 2,
+      "node": "default:stone"
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": 2,
+      "node": "default:dirt"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": 2,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -3,
+      "y": -2,
+      "z": 3,
+      "node": "default:stone"
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": 3,
+      "node": "default:dirt"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": 3,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -3,
+      "y": -2,
+      "z": 4,
+      "node": "default:stone"
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": 4,
+      "node": "default:dirt"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": 4,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -3,
+      "y": -2,
+      "z": 5,
+      "node": "default:stone"
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": 5,
+      "node": "default:dirt"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": 5,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -3,
+      "y": -2,
+      "z": 6,
+      "node": "default:stone"
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": 6,
+      "node": "default:dirt"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": 6,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -2,
+      "y": -2,
+      "z": -6,
+      "node": "default:stone"
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": -6,
+      "node": "default:dirt"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": -6,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -2,
+      "y": -2,
+      "z": -5,
+      "node": "default:stone"
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": -5,
+      "node": "default:dirt"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": -5,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -2,
+      "y": -2,
+      "z": -4,
+      "node": "default:stone"
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": -4,
+      "node": "default:dirt"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": -4,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -2,
+      "y": -2,
+      "z": -3,
+      "node": "default:stone"
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": -3,
+      "node": "default:dirt"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": -3,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -2,
+      "y": -2,
+      "z": -2,
+      "node": "default:stone"
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": -2,
+      "node": "default:dirt"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": -2,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -2,
+      "y": -2,
+      "z": -1,
+      "node": "default:stone"
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": -1,
+      "node": "default:dirt"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": -1,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -2,
+      "y": -2,
+      "z": 0,
+      "node": "default:stone"
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": 0,
+      "node": "default:dirt"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 0,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -2,
+      "y": -2,
+      "z": 1,
+      "node": "default:stone"
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": 1,
+      "node": "default:dirt"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 1,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -2,
+      "y": -2,
+      "z": 2,
+      "node": "default:stone"
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": 2,
+      "node": "default:dirt"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 2,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -2,
+      "y": -2,
+      "z": 3,
+      "node": "default:stone"
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": 3,
+      "node": "default:dirt"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 3,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -2,
+      "y": -2,
+      "z": 4,
+      "node": "default:stone"
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": 4,
+      "node": "default:dirt"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 4,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -2,
+      "y": -2,
+      "z": 5,
+      "node": "default:stone"
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": 5,
+      "node": "default:dirt"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 5,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -2,
+      "y": -2,
+      "z": 6,
+      "node": "default:stone"
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": 6,
+      "node": "default:dirt"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 6,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -1,
+      "y": -2,
+      "z": -6,
+      "node": "default:stone"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": -6,
+      "node": "default:dirt"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -6,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -1,
+      "y": -2,
+      "z": -5,
+      "node": "default:stone"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": -5,
+      "node": "default:dirt"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -5,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -1,
+      "y": -2,
+      "z": -4,
+      "node": "default:stone"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": -4,
+      "node": "default:dirt"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -4,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -1,
+      "y": -2,
+      "z": -3,
+      "node": "default:stone"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": -3,
+      "node": "default:dirt"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -3,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -1,
+      "y": -2,
+      "z": -2,
+      "node": "default:stone"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": -2,
+      "node": "default:dirt"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -2,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -1,
+      "y": -2,
+      "z": -1,
+      "node": "default:stone"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": -1,
+      "node": "default:dirt"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -1,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -1,
+      "y": -2,
+      "z": 0,
+      "node": "default:stone"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 0,
+      "node": "default:dirt"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 0,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -1,
+      "y": -2,
+      "z": 1,
+      "node": "default:stone"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 1,
+      "node": "default:dirt"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 1,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -1,
+      "y": -2,
+      "z": 2,
+      "node": "default:stone"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 2,
+      "node": "default:dirt"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 2,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -1,
+      "y": -2,
+      "z": 3,
+      "node": "default:stone"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 3,
+      "node": "default:dirt"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 3,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -1,
+      "y": -2,
+      "z": 4,
+      "node": "default:stone"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 4,
+      "node": "default:dirt"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 4,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -1,
+      "y": -2,
+      "z": 5,
+      "node": "default:stone"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 5,
+      "node": "default:dirt"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 5,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -1,
+      "y": -2,
+      "z": 6,
+      "node": "default:stone"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 6,
+      "node": "default:dirt"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 6,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 0,
+      "y": -2,
+      "z": -6,
+      "node": "default:stone"
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": -6,
+      "node": "default:dirt"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -6,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 0,
+      "y": -2,
+      "z": -5,
+      "node": "default:stone"
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": -5,
+      "node": "default:dirt"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -5,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 0,
+      "y": -2,
+      "z": -4,
+      "node": "default:stone"
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": -4,
+      "node": "default:dirt"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -4,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 0,
+      "y": -2,
+      "z": -3,
+      "node": "default:stone"
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": -3,
+      "node": "default:dirt"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -3,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 0,
+      "y": -2,
+      "z": -2,
+      "node": "default:stone"
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": -2,
+      "node": "default:dirt"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -2,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 0,
+      "y": -2,
+      "z": -1,
+      "node": "default:stone"
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": -1,
+      "node": "default:dirt"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -1,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 0,
+      "y": -2,
+      "z": 0,
+      "node": "default:stone"
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 0,
+      "node": "default:dirt"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "node": "default:sand"
+    },
+    {
+      "x": 0,
+      "y": -2,
+      "z": 1,
+      "node": "default:stone"
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 1,
+      "node": "default:dirt"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 1,
+      "node": "default:sand"
+    },
+    {
+      "x": 0,
+      "y": -2,
+      "z": 2,
+      "node": "default:stone"
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 2,
+      "node": "default:dirt"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 2,
+      "node": "default:sand"
+    },
+    {
+      "x": 0,
+      "y": -2,
+      "z": 3,
+      "node": "default:stone"
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 3,
+      "node": "default:dirt"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 3,
+      "node": "default:sand"
+    },
+    {
+      "x": 0,
+      "y": -2,
+      "z": 4,
+      "node": "default:stone"
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 4,
+      "node": "default:dirt"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 4,
+      "node": "default:sand"
+    },
+    {
+      "x": 0,
+      "y": -2,
+      "z": 5,
+      "node": "default:stone"
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 5,
+      "node": "default:dirt"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 5,
+      "node": "default:sand"
+    },
+    {
+      "x": 0,
+      "y": -2,
+      "z": 6,
+      "node": "default:stone"
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 6,
+      "node": "default:dirt"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 6,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 1,
+      "y": -2,
+      "z": -6,
+      "node": "default:stone"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": -6,
+      "node": "default:dirt"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -6,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 1,
+      "y": -2,
+      "z": -5,
+      "node": "default:stone"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": -5,
+      "node": "default:dirt"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -5,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 1,
+      "y": -2,
+      "z": -4,
+      "node": "default:stone"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": -4,
+      "node": "default:dirt"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -4,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 1,
+      "y": -2,
+      "z": -3,
+      "node": "default:stone"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": -3,
+      "node": "default:dirt"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -3,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 1,
+      "y": -2,
+      "z": -2,
+      "node": "default:stone"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": -2,
+      "node": "default:dirt"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -2,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 1,
+      "y": -2,
+      "z": -1,
+      "node": "default:stone"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": -1,
+      "node": "default:dirt"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -1,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 1,
+      "y": -2,
+      "z": 0,
+      "node": "default:stone"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 0,
+      "node": "default:dirt"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 0,
+      "node": "default:sand"
+    },
+    {
+      "x": 1,
+      "y": -2,
+      "z": 1,
+      "node": "default:stone"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 1,
+      "node": "default:sand"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 1,
+      "node": "default:water_source"
+    },
+    {
+      "x": 1,
+      "y": -2,
+      "z": 2,
+      "node": "default:stone"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 2,
+      "node": "default:sand"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 2,
+      "node": "default:water_source"
+    },
+    {
+      "x": 1,
+      "y": -2,
+      "z": 3,
+      "node": "default:stone"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 3,
+      "node": "default:sand"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 3,
+      "node": "default:water_source"
+    },
+    {
+      "x": 1,
+      "y": -2,
+      "z": 4,
+      "node": "default:stone"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 4,
+      "node": "default:sand"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 4,
+      "node": "default:water_source"
+    },
+    {
+      "x": 1,
+      "y": -2,
+      "z": 5,
+      "node": "default:stone"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 5,
+      "node": "default:dirt"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 5,
+      "node": "default:sand"
+    },
+    {
+      "x": 1,
+      "y": -2,
+      "z": 6,
+      "node": "default:stone"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 6,
+      "node": "default:dirt"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 6,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "z": -6,
+      "node": "default:stone"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": -6,
+      "node": "default:dirt"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": -6,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "z": -5,
+      "node": "default:stone"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": -5,
+      "node": "default:dirt"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": -5,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "z": -4,
+      "node": "default:stone"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": -4,
+      "node": "default:dirt"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": -4,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "z": -3,
+      "node": "default:stone"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": -3,
+      "node": "default:dirt"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": -3,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "z": -2,
+      "node": "default:stone"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": -2,
+      "node": "default:dirt"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": -2,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "z": -1,
+      "node": "default:stone"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": -1,
+      "node": "default:dirt"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": -1,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "z": 0,
+      "node": "default:stone"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": 0,
+      "node": "default:dirt"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 0,
+      "node": "default:sand"
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "z": 1,
+      "node": "default:stone"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": 1,
+      "node": "default:sand"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 1,
+      "node": "default:water_source"
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "z": 2,
+      "node": "default:stone"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": 2,
+      "node": "default:sand"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 2,
+      "node": "default:water_source"
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "z": 3,
+      "node": "default:stone"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": 3,
+      "node": "default:sand"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 3,
+      "node": "default:water_source"
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "z": 4,
+      "node": "default:stone"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": 4,
+      "node": "default:sand"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 4,
+      "node": "default:water_source"
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "z": 5,
+      "node": "default:stone"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": 5,
+      "node": "default:dirt"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 5,
+      "node": "default:sand"
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "z": 6,
+      "node": "default:stone"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": 6,
+      "node": "default:dirt"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 6,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 3,
+      "y": -2,
+      "z": -6,
+      "node": "default:stone"
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": -6,
+      "node": "default:dirt"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -6,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 3,
+      "y": -2,
+      "z": -5,
+      "node": "default:stone"
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": -5,
+      "node": "default:dirt"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -5,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 3,
+      "y": -2,
+      "z": -4,
+      "node": "default:stone"
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": -4,
+      "node": "default:dirt"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -4,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 3,
+      "y": -2,
+      "z": -3,
+      "node": "default:stone"
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": -3,
+      "node": "default:dirt"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -3,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 3,
+      "y": -2,
+      "z": -2,
+      "node": "default:stone"
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": -2,
+      "node": "default:dirt"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -2,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 3,
+      "y": -2,
+      "z": -1,
+      "node": "default:stone"
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": -1,
+      "node": "default:dirt"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -1,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 3,
+      "y": -2,
+      "z": 0,
+      "node": "default:stone"
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": 0,
+      "node": "default:dirt"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 0,
+      "node": "default:sand"
+    },
+    {
+      "x": 3,
+      "y": -2,
+      "z": 1,
+      "node": "default:stone"
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": 1,
+      "node": "default:sand"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 1,
+      "node": "default:water_source"
+    },
+    {
+      "x": 3,
+      "y": -2,
+      "z": 2,
+      "node": "default:stone"
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": 2,
+      "node": "default:sand"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 2,
+      "node": "default:water_source"
+    },
+    {
+      "x": 3,
+      "y": -2,
+      "z": 3,
+      "node": "default:stone"
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": 3,
+      "node": "default:sand"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 3,
+      "node": "default:water_source"
+    },
+    {
+      "x": 3,
+      "y": -2,
+      "z": 4,
+      "node": "default:stone"
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": 4,
+      "node": "default:sand"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 4,
+      "node": "default:water_source"
+    },
+    {
+      "x": 3,
+      "y": -2,
+      "z": 5,
+      "node": "default:stone"
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": 5,
+      "node": "default:dirt"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 5,
+      "node": "default:sand"
+    },
+    {
+      "x": 3,
+      "y": -2,
+      "z": 6,
+      "node": "default:stone"
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": 6,
+      "node": "default:dirt"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 6,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 4,
+      "y": -2,
+      "z": -6,
+      "node": "default:stone"
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": -6,
+      "node": "default:dirt"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": -6,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 4,
+      "y": -2,
+      "z": -5,
+      "node": "default:stone"
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": -5,
+      "node": "default:dirt"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": -5,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 4,
+      "y": -2,
+      "z": -4,
+      "node": "default:stone"
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": -4,
+      "node": "default:dirt"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": -4,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 4,
+      "y": -2,
+      "z": -3,
+      "node": "default:stone"
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": -3,
+      "node": "default:dirt"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": -3,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 4,
+      "y": -2,
+      "z": -2,
+      "node": "default:stone"
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": -2,
+      "node": "default:dirt"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": -2,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 4,
+      "y": -2,
+      "z": -1,
+      "node": "default:stone"
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": -1,
+      "node": "default:dirt"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": -1,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 4,
+      "y": -2,
+      "z": 0,
+      "node": "default:stone"
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": 0,
+      "node": "default:dirt"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 0,
+      "node": "default:sand"
+    },
+    {
+      "x": 4,
+      "y": -2,
+      "z": 1,
+      "node": "default:stone"
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": 1,
+      "node": "default:sand"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 1,
+      "node": "default:water_source"
+    },
+    {
+      "x": 4,
+      "y": -2,
+      "z": 2,
+      "node": "default:stone"
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": 2,
+      "node": "default:sand"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 2,
+      "node": "default:water_source"
+    },
+    {
+      "x": 4,
+      "y": -2,
+      "z": 3,
+      "node": "default:stone"
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": 3,
+      "node": "default:sand"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 3,
+      "node": "default:water_source"
+    },
+    {
+      "x": 4,
+      "y": -2,
+      "z": 4,
+      "node": "default:stone"
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": 4,
+      "node": "default:sand"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 4,
+      "node": "default:water_source"
+    },
+    {
+      "x": 4,
+      "y": -2,
+      "z": 5,
+      "node": "default:stone"
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": 5,
+      "node": "default:dirt"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 5,
+      "node": "default:sand"
+    },
+    {
+      "x": 4,
+      "y": -2,
+      "z": 6,
+      "node": "default:stone"
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": 6,
+      "node": "default:dirt"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 6,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 5,
+      "y": -2,
+      "z": -6,
+      "node": "default:stone"
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": -6,
+      "node": "default:dirt"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": -6,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 5,
+      "y": -2,
+      "z": -5,
+      "node": "default:stone"
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": -5,
+      "node": "default:dirt"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": -5,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 5,
+      "y": -2,
+      "z": -4,
+      "node": "default:stone"
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": -4,
+      "node": "default:dirt"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": -4,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 5,
+      "y": -2,
+      "z": -3,
+      "node": "default:stone"
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": -3,
+      "node": "default:dirt"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": -3,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 5,
+      "y": -2,
+      "z": -2,
+      "node": "default:stone"
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": -2,
+      "node": "default:dirt"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": -2,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 5,
+      "y": -2,
+      "z": -1,
+      "node": "default:stone"
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": -1,
+      "node": "default:dirt"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": -1,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 5,
+      "y": -2,
+      "z": 0,
+      "node": "default:stone"
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": 0,
+      "node": "default:dirt"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": 0,
+      "node": "default:sand"
+    },
+    {
+      "x": 5,
+      "y": -2,
+      "z": 1,
+      "node": "default:stone"
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": 1,
+      "node": "default:dirt"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": 1,
+      "node": "default:sand"
+    },
+    {
+      "x": 5,
+      "y": -2,
+      "z": 2,
+      "node": "default:stone"
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": 2,
+      "node": "default:dirt"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": 2,
+      "node": "default:sand"
+    },
+    {
+      "x": 5,
+      "y": -2,
+      "z": 3,
+      "node": "default:stone"
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": 3,
+      "node": "default:dirt"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": 3,
+      "node": "default:sand"
+    },
+    {
+      "x": 5,
+      "y": -2,
+      "z": 4,
+      "node": "default:stone"
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": 4,
+      "node": "default:dirt"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": 4,
+      "node": "default:sand"
+    },
+    {
+      "x": 5,
+      "y": -2,
+      "z": 5,
+      "node": "default:stone"
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": 5,
+      "node": "default:dirt"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": 5,
+      "node": "default:sand"
+    },
+    {
+      "x": 5,
+      "y": -2,
+      "z": 6,
+      "node": "default:stone"
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": 6,
+      "node": "default:dirt"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": 6,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 6,
+      "y": -2,
+      "z": -6,
+      "node": "default:stone"
+    },
+    {
+      "x": 6,
+      "y": -1,
+      "z": -6,
+      "node": "default:dirt"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": -6,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 6,
+      "y": -2,
+      "z": -5,
+      "node": "default:stone"
+    },
+    {
+      "x": 6,
+      "y": -1,
+      "z": -5,
+      "node": "default:dirt"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": -5,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 6,
+      "y": -2,
+      "z": -4,
+      "node": "default:stone"
+    },
+    {
+      "x": 6,
+      "y": -1,
+      "z": -4,
+      "node": "default:dirt"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": -4,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 6,
+      "y": -2,
+      "z": -3,
+      "node": "default:stone"
+    },
+    {
+      "x": 6,
+      "y": -1,
+      "z": -3,
+      "node": "default:dirt"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": -3,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 6,
+      "y": -2,
+      "z": -2,
+      "node": "default:stone"
+    },
+    {
+      "x": 6,
+      "y": -1,
+      "z": -2,
+      "node": "default:dirt"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": -2,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 6,
+      "y": -2,
+      "z": -1,
+      "node": "default:stone"
+    },
+    {
+      "x": 6,
+      "y": -1,
+      "z": -1,
+      "node": "default:dirt"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": -1,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 6,
+      "y": -2,
+      "z": 0,
+      "node": "default:stone"
+    },
+    {
+      "x": 6,
+      "y": -1,
+      "z": 0,
+      "node": "default:dirt"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": 0,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 6,
+      "y": -2,
+      "z": 1,
+      "node": "default:stone"
+    },
+    {
+      "x": 6,
+      "y": -1,
+      "z": 1,
+      "node": "default:dirt"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": 1,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 6,
+      "y": -2,
+      "z": 2,
+      "node": "default:stone"
+    },
+    {
+      "x": 6,
+      "y": -1,
+      "z": 2,
+      "node": "default:dirt"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": 2,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 6,
+      "y": -2,
+      "z": 3,
+      "node": "default:stone"
+    },
+    {
+      "x": 6,
+      "y": -1,
+      "z": 3,
+      "node": "default:dirt"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": 3,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 6,
+      "y": -2,
+      "z": 4,
+      "node": "default:stone"
+    },
+    {
+      "x": 6,
+      "y": -1,
+      "z": 4,
+      "node": "default:dirt"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": 4,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 6,
+      "y": -2,
+      "z": 5,
+      "node": "default:stone"
+    },
+    {
+      "x": 6,
+      "y": -1,
+      "z": 5,
+      "node": "default:dirt"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": 5,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": 6,
+      "y": -2,
+      "z": 6,
+      "node": "default:stone"
+    },
+    {
+      "x": 6,
+      "y": -1,
+      "z": 6,
+      "node": "default:dirt"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": 6,
+      "node": "default:dirt_with_grass"
+    },
+    {
+      "x": -3,
+      "y": 2,
+      "z": -3,
+      "node": "default:tree"
+    },
+    {
+      "x": -3,
+      "y": 3,
+      "z": -3,
+      "node": "default:tree"
+    },
+    {
+      "x": -3,
+      "y": 4,
+      "z": -3,
+      "node": "default:tree"
+    },
+    {
+      "x": -3,
+      "y": 5,
+      "z": -3,
+      "node": "default:tree"
+    },
+    {
+      "x": -5,
+      "y": 5,
+      "z": -4,
+      "node": "default:leaves"
+    },
+    {
+      "x": -5,
+      "y": 4,
+      "z": -3,
+      "node": "default:leaves"
+    },
+    {
+      "x": -5,
+      "y": 5,
+      "z": -3,
+      "node": "default:leaves"
+    },
+    {
+      "x": -5,
+      "y": 6,
+      "z": -3,
+      "node": "default:leaves"
+    },
+    {
+      "x": -5,
+      "y": 5,
+      "z": -2,
+      "node": "default:leaves"
+    },
+    {
+      "x": -4,
+      "y": 5,
+      "z": -5,
+      "node": "default:leaves"
+    },
+    {
+      "x": -4,
+      "y": 4,
+      "z": -4,
+      "node": "default:leaves"
+    },
+    {
+      "x": -4,
+      "y": 5,
+      "z": -4,
+      "node": "default:leaves"
+    },
+    {
+      "x": -4,
+      "y": 6,
+      "z": -4,
+      "node": "default:leaves"
+    },
+    {
+      "x": -4,
+      "y": 4,
+      "z": -3,
+      "node": "default:leaves"
+    },
+    {
+      "x": -4,
+      "y": 5,
+      "z": -3,
+      "node": "default:leaves"
+    },
+    {
+      "x": -4,
+      "y": 6,
+      "z": -3,
+      "node": "default:leaves"
+    },
+    {
+      "x": -4,
+      "y": 4,
+      "z": -2,
+      "node": "default:leaves"
+    },
+    {
+      "x": -4,
+      "y": 5,
+      "z": -2,
+      "node": "default:leaves"
+    },
+    {
+      "x": -4,
+      "y": 6,
+      "z": -2,
+      "node": "default:leaves"
+    },
+    {
+      "x": -4,
+      "y": 5,
+      "z": -1,
+      "node": "default:leaves"
+    },
+    {
+      "x": -3,
+      "y": 4,
+      "z": -5,
+      "node": "default:leaves"
+    },
+    {
+      "x": -3,
+      "y": 5,
+      "z": -5,
+      "node": "default:leaves"
+    },
+    {
+      "x": -3,
+      "y": 6,
+      "z": -5,
+      "node": "default:leaves"
+    },
+    {
+      "x": -3,
+      "y": 4,
+      "z": -4,
+      "node": "default:leaves"
+    },
+    {
+      "x": -3,
+      "y": 5,
+      "z": -4,
+      "node": "default:leaves"
+    },
+    {
+      "x": -3,
+      "y": 6,
+      "z": -4,
+      "node": "default:leaves"
+    },
+    {
+      "x": -3,
+      "y": 6,
+      "z": -3,
+      "node": "default:leaves"
+    },
+    {
+      "x": -3,
+      "y": 4,
+      "z": -2,
+      "node": "default:leaves"
+    },
+    {
+      "x": -3,
+      "y": 5,
+      "z": -2,
+      "node": "default:leaves"
+    },
+    {
+      "x": -3,
+      "y": 6,
+      "z": -2,
+      "node": "default:leaves"
+    },
+    {
+      "x": -3,
+      "y": 4,
+      "z": -1,
+      "node": "default:leaves"
+    },
+    {
+      "x": -3,
+      "y": 5,
+      "z": -1,
+      "node": "default:leaves"
+    },
+    {
+      "x": -3,
+      "y": 6,
+      "z": -1,
+      "node": "default:leaves"
+    },
+    {
+      "x": -2,
+      "y": 5,
+      "z": -5,
+      "node": "default:leaves"
+    },
+    {
+      "x": -2,
+      "y": 4,
+      "z": -4,
+      "node": "default:leaves"
+    },
+    {
+      "x": -2,
+      "y": 5,
+      "z": -4,
+      "node": "default:leaves"
+    },
+    {
+      "x": -2,
+      "y": 6,
+      "z": -4,
+      "node": "default:leaves"
+    },
+    {
+      "x": -2,
+      "y": 4,
+      "z": -3,
+      "node": "default:leaves"
+    },
+    {
+      "x": -2,
+      "y": 5,
+      "z": -3,
+      "node": "default:leaves"
+    },
+    {
+      "x": -2,
+      "y": 6,
+      "z": -3,
+      "node": "default:leaves"
+    },
+    {
+      "x": -2,
+      "y": 4,
+      "z": -2,
+      "node": "default:leaves"
+    },
+    {
+      "x": -2,
+      "y": 5,
+      "z": -2,
+      "node": "default:leaves"
+    },
+    {
+      "x": -2,
+      "y": 6,
+      "z": -2,
+      "node": "default:leaves"
+    },
+    {
+      "x": -2,
+      "y": 5,
+      "z": -1,
+      "node": "default:leaves"
+    },
+    {
+      "x": -1,
+      "y": 5,
+      "z": -4,
+      "node": "default:leaves"
+    },
+    {
+      "x": -1,
+      "y": 4,
+      "z": -3,
+      "node": "default:leaves"
+    },
+    {
+      "x": -1,
+      "y": 5,
+      "z": -3,
+      "node": "default:leaves"
+    },
+    {
+      "x": -1,
+      "y": 6,
+      "z": -3,
+      "node": "default:leaves"
+    },
+    {
+      "x": -1,
+      "y": 5,
+      "z": -2,
+      "node": "default:leaves"
+    }
+  ]
+}

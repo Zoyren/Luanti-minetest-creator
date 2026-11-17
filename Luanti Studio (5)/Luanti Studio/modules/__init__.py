@@ -1,0 +1,1 @@
+"""Package regroupant les modules créatifs (MOB, BLOCK, ITEM, COMMAND, WORLD) et leurs sous-éditeurs."""

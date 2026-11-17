@@ -1,0 +1,1 @@
+"""Package de persistance SQLite pour les projets, la bibliothèque et le suivi d'intégrité."""

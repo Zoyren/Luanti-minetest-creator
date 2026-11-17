@@ -1,0 +1,1 @@
+"""Module WORLD : Éditeur de monde et de structures Voxel 3D."""

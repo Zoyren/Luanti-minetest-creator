@@ -1,0 +1,1 @@
+"""Package de l'environnement de développement intégré (IDE) Lua multi-onglets."""

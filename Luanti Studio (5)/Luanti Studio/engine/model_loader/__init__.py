@@ -1,0 +1,1 @@
+"""Sous-package de structures de données 3D, import/export GLB/GLTF/OBJ et conversion Nodebox."""

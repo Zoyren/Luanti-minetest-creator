@@ -1,0 +1,1 @@
+"""Sous-package du studio d'animations 3D, gestion des keyframes et interpolation temporelle."""

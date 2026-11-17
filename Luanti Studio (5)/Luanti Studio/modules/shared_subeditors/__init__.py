@@ -1,0 +1,1 @@
+"""Sous-éditeurs partagés entre les modules MOB, BLOCK et ITEM (Pixel-Art multi-calques)."""

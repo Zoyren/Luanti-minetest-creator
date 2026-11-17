@@ -1,0 +1,1 @@
+"""Sous-package d'intégration locale de Blockly via QWebEngineView et QWebChannel."""
